@@ -9,7 +9,8 @@
         "davidbarratt/custom-installer": "^1.0@alpha",
         "cweagans/composer-patches": "^1.5",
         "drupal/token": "1.x-dev",
-        "drupal/ajax_facets": "1.x-dev"
+        "drupal/ajax_facets": "1.x-dev",
+        "drupal/rules": "3.x-dev"
 
     },
     "replace": {

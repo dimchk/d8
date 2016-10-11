@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "849ec771f2d49fb006482a06d4fafb04",
-    "content-hash": "9fadbd6f88c7ff669f130de40cd83af9",
+    "hash": "c01d927eebb2cadd22e5f5ef82fba39f",
+    "content-hash": "cea45ac7d5a54a59966968d2c6ab06ad",
     "packages": [
         {
             "name": "composer/installers",
@@ -699,6 +699,52 @@
             "time": "2012-09-13 17:59:33"
         },
         {
+            "name": "drupal/rules",
+            "version": "dev-3.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/rules",
+                "reference": "a86a0f402625d95c736a721414095f193252f44c"
+            },
+            "require": {
+                "drupal/core": "~8.0",
+                "drupal/typed_data": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-3.0-alpha2+0-dev",
+                    "datestamp": "1475246339"
+                },
+                "patches_applied": {
+                    "Test patch": "https://www.drupal.org/files/issues/add_a_startup-1543858-30.patch"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "fago",
+                    "homepage": "https://www.drupal.org/user/16747"
+                },
+                {
+                    "name": "klausi",
+                    "homepage": "https://www.drupal.org/user/262198"
+                }
+            ],
+            "description": "React on events and conditionally evaluate actions.",
+            "homepage": "https://www.drupal.org/project/rules",
+            "support": {
+                "source": "http://cgit.drupalcode.org/rules"
+            },
+            "time": "2016-09-30 14:47:02"
+        },
+        {
             "name": "drupal/token",
             "version": "dev-1.x",
             "source": {
@@ -756,6 +802,49 @@
                 "issues": "https://www.drupal.org/project/issues/token"
             },
             "time": "2016-09-20 10:19:14"
+        },
+        {
+            "name": "drupal/typed_data",
+            "version": "1.0.0-alpha1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/typed_data",
+                "reference": "8.x-1.0-alpha1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/typed_data-8.x-1.0-alpha1.zip",
+                "reference": "8.x-1.0-alpha1",
+                "shasum": "69b7230546bfea53d57f8923183e964137f5a456"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha1",
+                    "datestamp": "1475245822"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "fago",
+                    "homepage": "https://www.drupal.org/user/16747"
+                }
+            ],
+            "description": "Extends the core Typed Data API with new APIS and features.",
+            "homepage": "https://www.drupal.org/project/typed_data",
+            "support": {
+                "source": "http://cgit.drupalcode.org/typed_data"
+            }
         },
         {
             "name": "easyrdf/easyrdf",
@@ -4462,7 +4551,8 @@
     "stability-flags": {
         "davidbarratt/custom-installer": 15,
         "drupal/token": 20,
-        "drupal/ajax_facets": 20
+        "drupal/ajax_facets": 20,
+        "drupal/rules": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
